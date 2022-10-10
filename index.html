@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Qup! for Business</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    </head>
+    <body>
+        <nav><!-- NAV START -->
+            <div id="navItemContainer">
+                <div class="navItem"><a class="hover-underline-animation">Qup! for Business</a></div>
+                <div class="navItem"><a class="hover-underline-animation" href="download.html ">Download</a></div>
+            </div>
+        </nav><!-- NAV END -->
+        <header id="videoContainer"><!-- HEADER START -->
+            <div id="lottieContainer">
+                <lottie-player id="qupIntroLottie" src="https://assets8.lottiefiles.com/private_files/lf30_e9ichwj3.json" background="transparent" speed="1" autoplay></lottie-player>
+            </div>
+            <video autoplay muted loop id="bgVid">
+                <source src="videos/QUP-BGVID-LOOPREV-60.mp4" type="video/mp4">
+            </video>
+        </header><!-- HEADER END -->
+        <main><!-- MAIN START -->
+            <section id="introParaQup">
+                <h2>Qup! has been created to efficiently fill your tables and maximise your table traffic.</h2>
+            </section>
+            <section id="businessQupSetup"><!-- SECTION START -->
+                <div id="setupLeft" class="halfHalf">
+                    <lottie-player id="qupScanLottie" src="https://assets10.lottiefiles.com/packages/lf20_nbzhvgkt.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                </div>
+                <div id="setupRight" class="halfHalf">
+                    <div class="halfHalfCopyBox">
+                        <h2>How does it work?</h2>
+                        <h3>Simply position your Qup-QR poster where you see fit, and we’ll take care of the rest!</h3>
+                        <p>Nobody is a stranger to a QR code now, so we’ve designed an effortless experience for your customers to jump in the queue without the need to physically stand in line. In just a few simple steps, your customers are able to join a virtual queue and return to your venue at a specified time or even after being notified.</p>
+                    </div>    
+                </div>
+            </section><!-- SECTION END -->
+            <section id="benefitSection"><!-- SECTION START -->
+                <div id="benefitContent">
+                    <h2>Business benefits</h2>
+                    <div id="benefitsGrid">
+                        <div class="blockItem"><div class="blockItemIcon" id="iconPaperless"></div><h3>Paperless system</h3></div>
+                        <div class="blockItem"><div class="blockItemIcon" id="iconTraffic"></div><h3>Maximise table traffic</h3></div>
+                        <div class="blockItem"><div class="blockItemIcon" id="iconCovid"></div><h3>Covid<br> safety</h3></div>
+                        <div class="blockItem"><div class="blockItemIcon" id="iconQueue"></div><h3>No queue chaos</h3></div>
+                    </div>
+                </div>
+            </section><!-- SECTION END -->
+            <section id="qupDemo"><!-- SECTION START -->
+                <div id="qupDemoImage"></div>
+                <div id="qupDemoUSP">
+                    <h2>Qup! Delivers:</h2>
+                    <div id="demoGrid">
+                        <div class="blockItem"><div class="blockItemIcon" id="iconDesign"></div><h3>Simplicity by design</h3></div>
+                        <div class="blockItem"><div class="blockItemIcon" id="iconEffortless"></div><h3>Effortless customer experience</h3></div>
+                        <div class="blockItem"><div class="blockItemIcon" id="iconIntegrate"></div><h3>Easy integration</h3></div>
+                    </div>
+                </div>
+            </section><!-- SECTION END -->
+        </main><!-- MAIN END -->
+        <footer><!-- FOOTER START -->
+            <div id="accountSection">
+                <div id="createAccount">
+                    <h2>Get started</h2>
+                    <h3>Create an account with Qup!</h3>
+                    <div id="qupButtons">
+                        <div class="qupButton" id="contactQupButton">Contact</div>
+                        <div class="qupButton" id="createQupButton">Create account</div>
+                    </div>
+                </div>
+            </div>
+            <div id="smallPrintContainer">
+                <small>&copy; Copyright 2022 Qup!</small>
+            </div>
+        </footer><!-- FOOTER END -->
+        <script src="/js/index.js" async defer></script>
+    </body>
+</html>

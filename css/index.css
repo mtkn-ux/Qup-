@@ -1,0 +1,573 @@
+/* Extra small devices (phones, 600px and down) */
+@media screen and (max-width: 600px) {
+    
+    #lottieContainer {
+        top: 180px;
+    }
+    
+    #qupIntroLottie {
+        width: 70vw;
+    }
+    
+    .halfHalf {
+        width: calc(100vw - 80px);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .halfHalfCopyBox {
+        width: auto;
+    }
+    
+    #bgVid {
+        height: 40vh;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em; 
+    }
+
+    #introParaQup h2 {
+        color: #424242;
+        margin: 0;
+        padding: 40px 20px;
+    }
+
+    #setupLeft {
+        background-color: #F8B400;
+        width: 100%;
+        height: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #qupScanLottie {
+        height: 280px;
+        width: 280px;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .blockItem {
+        width: 130px;
+    }
+    
+    .blockItemIcon {
+        height: 130px;
+        width: 130px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+    
+    #lottieContainer {
+        top: 250px;
+    }
+    
+    #qupIntroLottie {
+        width: 70vw;
+    }
+
+    .halfHalf {
+        width: calc(100% - 80px);
+        min-width: 300px;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 40px;
+    }
+
+    .halfHalfCopyBox {
+        width: auto;
+    }
+
+    #setupLeft {
+        background-color: #F8B400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1.3em; 
+    }
+
+    #introParaQup h2 {
+        color: #424242;
+        margin: 0;
+        padding: 50px 20px;
+        max-width: 700px;
+    }
+
+    .blockItem {
+        width: 170px;
+    }
+    
+    .blockItemIcon {
+        height: 170px;
+        width: 170px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    
+    #lottieContainer {
+        top: 300px;
+    }
+    
+    #qupIntroLottie {
+        width: 70vw;
+    }
+    
+    .halfHalf {
+        width: calc(50% - 80px);
+        min-width: 300px;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .halfHalfCopyBox {
+        width: auto;
+    }
+
+    .blockItem {
+        width: 130px;
+    }
+    
+    .blockItemIcon {
+        height: 130px;
+        width: 130px;
+    }
+
+    #setupLeft {
+        background-color: #F8B400;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    .halfHalf {
+        width: calc(50% - 80px);
+        min-width: 300px;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .halfHalfCopyBox {
+        width: auto;
+    }
+
+    #qupScanLottie {
+        position: relative;
+        bottom: 0;
+        height: 500px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    
+    #lottieContainer {
+        top: 300px;
+    }
+    
+    #qupIntroLottie {
+        width: 40vw;
+    }
+    
+    .halfHalf {
+        width: calc(50% - 80px);
+        min-width: 300px;
+        min-height: 300px;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+
+    .halfHalfCopyBox {
+        width: auto;
+        max-width: 500px;
+    }
+
+    #qupScanLottie {
+        position: relative;
+        bottom: 0;
+        height: 600px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+nav {
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+#navItemContainer {
+    display: inline-flex;
+    padding: 10px;
+}
+
+.navItem {
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    color: white;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navItem:hover {
+    cursor: pointer;
+}
+
+.navItem a {
+    text-decoration: none;
+    color: white;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #F8B400;
+  }
+  
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -2px;
+    left: 0;
+    background-color: #F8B400;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+#videoContainer {
+    width: 100%;
+    overflow: hidden;
+}
+
+#lottieContainer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#qupIntroLottie {
+    position: absolute;
+    z-index: 50;
+    height: auto;
+    align-self: center;
+}
+
+#video-container {
+    width: 100vw;
+    position: flex;
+    overflow: hidden !important;
+}
+
+#bgVid {
+    max-height: 600px;
+    min-height: 200px;
+    min-width: 100%;
+    object-fit: cover;
+    display: flex;
+    transform: translate(-50%);
+    position: relative;
+    left: 50%;
+    bottom: 0;
+}
+
+#introParaQup {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+
+#introParaQup h2 {
+    color: #424242;
+    margin: 0;
+}
+
+main {
+    z-index: 200;
+    top: 90vh;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#businessQupSetup {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #F8B400;
+}
+
+.halfHalf {
+    display: flex;
+    flex-direction: column;
+    max-height: 380px;
+}
+
+#setupRight {
+    text-align: left;
+    padding: 40px;
+    background-image: url(../images/mustard-arrows2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F8B400;
+    display: flex;
+    align-content: center;
+}
+
+.halfHalfCopyBox {
+    margin-left: 0;
+    margin-right: auto;
+    position: relative;
+    margin: auto 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.halfHalfCopyBox h2 {
+    color: #424242;
+}
+
+.halfHalfCopyBox h3 {
+    color: #424242;
+    margin: 0;
+}
+
+.halfHalfCopyBox p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.1;
+    color: #424242;
+    margin: 20px 0;
+}
+
+#setupLeft {
+    background-color: #F8B400;
+}
+
+#benefitSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#benefitContent h2 {
+    color: #424242;
+    margin: 0 0 30px 0;
+}
+
+#benefitContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+    justify-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#benefitsGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.blockItem {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.blockItemIcon {
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#iconPaperless {
+    background-image: url(../images/qup-icon-1.png);
+}
+
+#iconTraffic {
+    background-image: url(../images/qup-icon-2.png);
+}
+
+#iconCovid {
+    background-image: url(../images/qup-icon-5.png);
+}
+
+#iconQueue {
+    background-image: url(../images/qup-icon-6.png);
+}
+
+#iconDesign {
+    background-image: url(../images/qup-icon.png);
+}
+
+#iconEffortless {
+    background-image: url(../images/qup-icon-3.png);
+}
+
+#iconIntegrate {
+    background-image: url(../images/qup-icon-4.png);
+}
+
+#qupDemo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#qupDemoImage {
+    width: 100%;
+    height: 450px;
+    background-image: url(../images/qupMockup3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#qupDemoUSP {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+#demoGrid {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+#qupDemoUSP h2 {
+    color: #424242;
+    margin: 0;
+}
+
+.blockItemIcon {
+    position: relative;
+}
+
+.blockItem h3 {
+    color: #424242;
+    font-weight: 700;
+}
+
+#accountSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#createAccount h2,#createAccount h3 {
+    color: white;
+    margin: 0 0 30px 0;
+}
+
+#createAccount h3 {
+    font-weight: 500;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    background-image: url(../images/mono-arrows3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #424242;
+    background-position: right;
+}
+
+#smallPrintContainer {
+    height: 20px;
+    width: 100%;
+    padding: 5px 0;
+    background-color: white;
+    text-align: center;
+}
+
+#qupButtons {
+    display: flex;
+    flex-direction: row;
+}
+
+.qupButton {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #f8b400;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+#createQupButton {
+    background-color: #F8B400;
+}
